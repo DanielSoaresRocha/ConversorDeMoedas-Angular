@@ -1,7 +1,7 @@
 export class Moeda {
 
     constructor(
-        private sigla?: string,
-        private descricao?: string
+        public sigla?: string,
+        public descricao?: string
     ) { }
 }
