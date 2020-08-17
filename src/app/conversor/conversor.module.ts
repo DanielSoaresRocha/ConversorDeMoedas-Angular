@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { ConversorComponent } from './components';
 
-import { MoedaService } from './services'
+import { MoedaService, ConversorService } from './services'
 
 @NgModule({
   declarations: [
@@ -13,7 +13,8 @@ import { MoedaService } from './services'
     CommonModule
   ],
   providers: [
-    MoedaService
+    MoedaService,
+    ConversorService
   ],
   exports: [
     ConversorComponent
